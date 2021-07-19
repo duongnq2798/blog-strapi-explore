@@ -1,0 +1,110 @@
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### Strapi ###
+
+.env
+license.txt
+exports
+*.cache
+build
+.strapi-updater.json
+
+############################
+# OS X
+
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+
+# Linux
+
+*~
+
+
+# Windows
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+
+# Packages
+
+*.7z
+*.csv
+*.dat
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.out
+*.pid
+
+# Logs and databases
+
+.tmp
+*.sql
+*.sqlite
+*.sqlite3
+
+
+# Misc.
+
+*#
+ssl
+.idea
+nbproject
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Node.js
+
+lib-cov
+lcov.info
+pids
+results
+.node_history
+
+# Tests
+
+testApp
+coverage
+
+# End of https://www.toptal.com/developers/gitignore/api/strapi,react
