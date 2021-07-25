@@ -1,0 +1,38 @@
+.container {
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.menuList {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  background-color: bisque;
+}
+
+.menuItem {
+  color: #333;
+}
+
+.latestTitle {
+  text-align: center;
+}
+
+.postItem {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+  border-bottom: 1px solid #333;
+}
+
+.postTitle {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
